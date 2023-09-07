@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  height: 70px;
+  height: 110px;
   display: flex;
   align-items: center;
   padding-block: 10px;
@@ -92,9 +92,8 @@ header a:hover {
   text-decoration: none;
   background-color: #ff8c38;
   border: none;
-  width: 300px;
+  width: 100%;
   margin-top: 27px;
-  margin-left: 500px;
   padding-block: 0.75rem;
   color: white;
   font-weight: 700;
@@ -109,8 +108,7 @@ header a:hover {
 
 /*** ABOUT PAGE ***/
 .about-hero-image {
-  margin-inline: 40px;
-  border-radius: 5px;
+  max-width: 100%;
 }
 
 .about-page-content {
